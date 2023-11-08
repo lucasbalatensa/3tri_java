@@ -6,7 +6,7 @@ let contador=0;
 while(contador <listadeteclas.length) {
 const efeito= listadeteclas [contador].classList[1];
 const idAudio="#som_"+efeito;
-listadeteclas[contador].onclick=function(){ tocaSom(idAudio);
+listadeteclas[contador].onclick=function(){ 
     tocaSom(idAudio);
 }
 contador=contador +1 ;
